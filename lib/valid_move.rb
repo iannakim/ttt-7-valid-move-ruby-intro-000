@@ -7,7 +7,7 @@ end
 
 def position_taken?(board, index)
   if board[index] != nil
-     board[index] != ""
+     board[index].strip != ""
   else
      false
   end
