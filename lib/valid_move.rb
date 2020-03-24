@@ -1,8 +1,8 @@
 def valid_move?(board, index)
   index.between?(1, 9) == true && position_taken?(board, index) == false
-  if board[index] == " "
-    return true
-  end
+  # if board[index] == " "
+  #   return true
+  # end
 end
 
 def position_taken?(board, index)
